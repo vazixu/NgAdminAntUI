@@ -84,6 +84,7 @@ namespace NgAdminAntUI
 
             app.UseSpa(spa =>
             {
+                //使用spa模式
                 // To learn more about options for serving an Angular SPA from ASP.NET Core,
                 // see https://go.microsoft.com/fwlink/?linkid=864501
 
