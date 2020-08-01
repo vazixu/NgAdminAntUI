@@ -38,6 +38,7 @@ namespace NgAdminAntUI
 
             services.AddAuthentication()
                 .AddIdentityServerJwt();
+                //.AddWechat()
             services.AddControllersWithViews();
             services.AddRazorPages();
             // In production, the Angular files will be served from this directory
