@@ -19,7 +19,10 @@ namespace NgAdminAntUI.Controllers
         [HttpGet("_configuration/{clientId}")]
         public IActionResult GetClientRequestParameters([FromRoute] string clientId)
         {
+            logger.LogInformation("API _configuration 调用 {ClientId}", clientId);
+
             var parameters = ClientRequestParametersProvider.GetClientParameters(HttpContext, clientId);
+            
             return Ok(parameters);
         }
     }

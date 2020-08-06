@@ -233,3 +233,6 @@ _Pvt_Extensions
 # Project Release relative settings file
 idsrv4.pfx
 [Rr]eleaseSettings/
+
+# log file
+[Ll]ogs/
